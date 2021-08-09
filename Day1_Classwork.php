@@ -14,20 +14,24 @@
         
     
 <?php 
-// # first exersies Day_1
+// # Exercise 1
 // $name = "Ateyaf & Kristofer";
 // echo "<h1> $name </h1>";
 
 
 
-#second exersise
-$name = "Ateyaf & Kristofer";
-$age = 30;
-$job_title ="couch driver";
+#Exercise 2
+// $name = "Ateyaf & Kristofer";
+// $age = 30;
+// $job_title ="couch driver";
 
-echo "<h1> Hi, we are  $name, and we are $age years old, and we works as a $job_title </h1>";
+// echo "<h1> Hi, we are  $name, and we are $age years old, and we works as a $job_title </h1>";
 
-echo'<img style= "width: 18%; height: 8%; margin-left: 35%; " src="https://cdn.pixabay.com/photo/2020/04/01/01/25/smile-4989709__340.png" > ';
+// echo'<img style= "width: 18%; height: 8%; margin-left: 35%; " src="https://cdn.pixabay.com/photo/2020/04/01/01/25/smile-4989709__340.png" > ';
+
+#Exercise 3
+$names = array("Mark", "John", "Georg" ,"Lisa");
+echo "<h1>the third player in the team is $names[2]</h1>"
 
 
 
