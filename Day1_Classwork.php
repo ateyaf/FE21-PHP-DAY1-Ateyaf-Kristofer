@@ -45,25 +45,25 @@ $marks = array(
         ),
     "anime" =>  array
         (
-        "Goku" => "best anime ",
-        "Pokemon" => "best anime"
+            "best_anime"  =>"Goku" ,
+            "best_anime2" => "Pokemon" 
        
         ),
     "game" =>  array
         (
-        "Super_Mario" => "play on nintendo",
-        "naruto_game" =>"play on PS4"
+            "play_on_nintendo" => "Super_Mario" ,
+            "play_on_PS4"=> "naruto_game" 
       
         )
     );
      /* Accessing multidimensional array values */
     
-     echo "best cartoon we love : ";
+     echo "<h2>best cartoon we love :</h2>";
      echo $marks['cartoon']['best_cartoon'] . "<br/>" ;
-     echo "best anime we love: ";
-     echo $marks['anime']['Pokemon'] . "<br/>" ;
-     echo "best game: " ;
-     echo $marks['game']['naruto_game'] .  "<br/>";
+     echo "<h2>best anime we love:</h2>";
+     echo $marks['anime']['best_anime'] . "<br/>" ;
+     echo "<h2>best game:<h2>" ;
+     echo $marks['game']['play_on_nintendo'] .  "<br/>";
      
    
 ?>
