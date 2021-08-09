@@ -14,7 +14,13 @@ p{
     
 }
 h2{
+    width: 100%;
     text-align: center;
     color:black;
-    margin-top:22%;
+    margin-top:5%;
+}
+h5{
+    color:yellow;
+    text-align: center;
+
 }

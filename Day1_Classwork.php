@@ -59,11 +59,11 @@ $marks = array(
      /* Accessing multidimensional array values */
     
      echo "<h2>best cartoon we love :</h2>";
-     echo $marks['cartoon']['best_cartoon'] . "<br/>" ;
+     echo "<h5>".$marks['cartoon']['best_cartoon'] . "</h5>" ;
      echo "<h2>best anime we love:</h2>";
-     echo $marks['anime']['best_anime'] . "<br/>" ;
+     echo "<h5>".$marks['anime']['best_anime'] . "</h5>" ;
      echo "<h2>best game:<h2>" ;
-     echo $marks['game']['play_on_nintendo'] .  "<br/>";
+     echo "<h5>". $marks['game']['play_on_nintendo'] .  "</h5>";
      
    
 ?>
