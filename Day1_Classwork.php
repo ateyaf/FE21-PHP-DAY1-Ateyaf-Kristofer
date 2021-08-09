@@ -15,17 +15,17 @@
     
 <?php 
 // # Exercise 1
-// $name = "Ateyaf & Kristofer";
+// $name = "Ateyaf & Kristofar";
 // echo "<h1> $name </h1>";
 
 
 
 #Exercise 2
-// $name = "Ateyaf & Kristofer";
-// $age = 30;
+// $name = "Ateyaf & Kristofar";
+// $age = 30 & 24;
 // $job_title ="couch driver";
 
-// echo "<h1> Hi, we are  $name, and we are $age years old, and we works as a $job_title </h1>";
+// echo "<h1> Hi, we are  $name, and we are $age years old, and we work as a $job_title </h1>";
 
 // echo'<img style= "width: 18%; height: 8%; margin-left: 35%; " src="https://cdn.pixabay.com/photo/2020/04/01/01/25/smile-4989709__340.png" > ';
 
