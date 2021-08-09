@@ -58,8 +58,8 @@ $marks = array(
     );
      /* Accessing multidimensional array values */
     
-     echo "<h1> best cartoon we love : </h1>";
-     echo "<h1>$marks['cartoon']['best_cartoon'] . "<br/>" ;
+     echo "best cartoon we love : ";
+     echo $marks['cartoon']['best_cartoon'] . "<br/>" ;
      echo "best anime we love: ";
      echo $marks['anime']['Pokemon'] . "<br/>" ;
      echo "best game: " ;
