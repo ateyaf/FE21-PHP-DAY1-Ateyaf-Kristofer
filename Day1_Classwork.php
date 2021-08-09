@@ -30,11 +30,42 @@
 // echo'<img style= "width: 18%; height: 8%; margin-left: 35%; " src="https://cdn.pixabay.com/photo/2020/04/01/01/25/smile-4989709__340.png" > ';
 
 #Exercise 3
-$names = array("Mark", "John", "Georg" ,"Lisa");
-echo "<h1>the third player in the team is $names[2]</h1>"
+// $names = array("Mark", "John", "Georg" ,"Lisa");
+// echo "<h1>the third player in the team is $names[2]</h1>"
 
 
+#Day 1 | Advanced
 
+$marks = array(
+    "cartoon" => array
+        (
+        "best_cartoon" => "Mickey Mouse",
+        "best_Arabic_cartoon" =>  "sinbad"
+        
+        ),
+    "anime" =>  array
+        (
+        "Goku" => "best anime ",
+        "Pokemon" => "best anime"
+       
+        ),
+    "game" =>  array
+        (
+        "Super_Mario" => "play on nintendo",
+        "naruto_game" =>"play on PS4"
+      
+        )
+    );
+     /* Accessing multidimensional array values */
+    
+     echo "<h1> best cartoon we love : </h1>";
+     echo "<h1>$marks['cartoon']['best_cartoon'] . "<br/>" ;
+     echo "best anime we love: ";
+     echo $marks['anime']['Pokemon'] . "<br/>" ;
+     echo "best game: " ;
+     echo $marks['game']['naruto_game'] .  "<br/>";
+     
+   
 ?>
 
 
